@@ -60,7 +60,7 @@ class _MyAppState extends State<MyApp> {
               icon: Icon(Icons.ac_unit),
               onPressed: () async {
                 // TEST CODE
-                await cookieManager.getCookies(null);
+                print(await cookieManager.getCookies(_url));
               },
             )
           ],
